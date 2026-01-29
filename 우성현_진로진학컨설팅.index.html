@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>진로진학 컨설팅 보고서 - 우성현 학생</title>
+    <style>
+        /* 기본 스타일 가이드 준수 */
+        :root {
+            --primary-color: #1e3a8a;
+            --secondary-color: #3b82f6;
+            --bg-light: #f8fafc;
+            --border-color: #e2e8f0;
+            --point-red: #ef4444;
+            --point-green: #10b981;
+            --point-orange: #f59e0b;
+        }
+
+        body {
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            font-size: 10pt; /* 지침 준수 */
+            line-height: 160%; /* 지침 준수 */
+            color: #1e293b;
+            background-color: #f1f5f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .report-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #ffffff;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid var(--border-color);
+        }
+
+        /* 시작 화면 제공 표기 */
+        .provider-header {
+            background: var(--primary-color);
+            color: white;
+            padding: 12px 25px;
+            font-weight: 600;
+            font-size: 9pt;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header {
+            padding: 40px 40px 20px 40px;
+            text-align: center;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        h1 {
+            font-size: 22pt;
+            color: var(--primary-color);
+            margin: 0 0 10px 0;
+            letter-spacing: -0.05em;
+        }
+
+        .student-info {
+            font-size: 14pt;
+            font-weight: 700;
+            color: #475569;
+            margin-bottom: 20px;
+        }
+
+        .intro-text {
+            background: #f8fbff;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid var(--secondary-color);
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        /* 섹션 스타일 */
+        section {
+            padding: 30px 40px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .section-title {
+            font-size: 15pt;
+            font-weight: 800;
+            color: var(--primary-color);
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        h3 {
+            font-size: 12pt;
+            color: var(--secondary-color);
+            margin: 20px 0 10px 0;
+        }
+
+        /* 박스 디자인 */
+        .info-card {
+            background: #fff;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        /* 합격 진단 컬러링 */
+        .status-badge {
+            display: inline-block;
+            padding: 2px 10px;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 9pt;
+            margin-bottom: 5px;
+            color: white;
+        }
+
+        .bg-safe { background-color: var(--point-green); }
+        .bg-neutral { background-color: var(--secondary-color); }
+        .bg-caution { background-color: var(--point-orange); }
+        .bg-danger { background-color: var(--point-red); }
+
+        /* 리스트 스타일 */
+        ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: var(--point-red);
+        }
+
+        /* 푸터 및 저작권 */
+        footer {
+            padding: 20px;
+            background: #f8fafc;
+            text-align: center;
+            font-size: 9pt;
+            color: #64748b;
+        }
+
+        .copyright {
+            margin-top: 5px;
+            font-weight: 600;
+        }
+
+        @media (max-width: 768px) {
+            .grid-container { grid-template-columns: 1fr; }
+            section { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="report-container">
+    <div class="provider-header">
+        <span>EST. 2024</span>
+        <span>이든관리형학습센터 제공</span>
+    </div>
+
+    <header>
+        <div class="student-info">🎓 미강고등학교 우성현 학생</div>
+        <h1>진로진학 컨설팅 보고서</h1>
+        
+        <div class="intro-text">
+            반갑습니다. 학생이 입력한 데이터를 기반으로 진로진학 컨설팅을 도와드릴 입시 전문가입니다.
+            우성현 학생의 현재 성적(내신 3.22등급, 모의고사 2.6등급)과 에듀고 진단 리포트를 바탕으로, 학생이 선택한 6개 대학(가천대, 국민대, 단국대, 서울과기대, 세종대, 숭실대)의 학생부 종합 전형 지원 전략을 정밀 분석해 드리겠습니다.
+        </div>
+    </header>
+
+    <section>
+        <div class="section-title">1. 우성현 학생의 현재 성적 및 역량 진단 🔍</div>
+        
+        <div class="info-card">
+            <h3>가. 교과 성적 (내신) 분석</h3>
+            <ul>
+                <li><strong>현재 등급:</strong> 전 학년 평균 3.22등급입니다.</li>
+                <li><strong>과목별 편차:</strong> 국어(2.50), 영어(2.00) 등 어문 계열 성적은 우수하나, 수학(2.90)과 사회(3.70), 과학(3.00) 등 탐구 영역에서 다소 약세를 보입니다.</li>
+                <li><strong>평가:</strong> 인서울 및 수도권 주요 대학의 학생부 종합 전형을 지원하기에는 다소 애매한 위치에 있습니다. 특히 경영학과를 지망함에도 수학 관련 교과 성적과 탐구 역량이 뒷받침되지 않는 점이 약점입니다.</li>
+            </ul>
+        </div>
+
+        <div class="info-card">
+            <h3>나. 모의고사 (수능) 분석</h3>
+            <ul>
+                <li><strong>성적:</strong> 국어(2등급, 백분위 91), 영어(2등급)는 매우 우수하여 수능 최저 충족에 유리합니다. 그러나 <span class="highlight">수학이 5등급(백분위 48)</span>으로 경영학 전공 지원자로서 치명적인 약점을 가지고 있습니다.</li>
+                <li><strong>평가:</strong> 정시로 갈 경우 국어/영어 반영 비율이 높은 대학을 노려야 하며, 수학 반영 비중이 높은 상위권 경영학과 진학은 현재 성적으로는 불리합니다.</li>
+            </ul>
+        </div>
+
+        <div class="info-card">
+            <h3>다. 비교과 및 논술 준비도</h3>
+            <ul>
+                <li><strong>비교과 진단:</strong> 에듀고 비교과 지수가 <span class="highlight">58점(미흡)</span>으로 평가되었습니다. 목표 대학 합격권인 75점(국민대 등)이나 55점(가천대 등)에 비해 부족하거나 턱걸이 수준입니다.</li>
+                <li><strong>논술 준비:</strong> 논술 역량 31점(미흡)으로 준비가 되어 있지 않아 논술 전형 지원은 위험합니다.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <div class="section-title">2. 선택한 대학 및 전형 집중 분석 (합격 가능성 진단) 🏫</div>
+        <p style="margin-bottom: 15px;">우성현 학생은 주로 <strong>'면접형 학생부 종합 전형'</strong>을 선택했습니다. 이는 부족한 내신과 비교과를 면접으로 뒤집으려는 전략으로 보입니다. 각 대학별 분석 결과는 다음과 같습니다.</p>
+
+        <div class="grid-container">
+            <div class="info-card">
+                <span class="status-badge bg-safe">① [적정/안정]</span>
+                <strong>가천대학교 - 경영학과 (가천바람개비)</strong>
+                <p style="margin-top:8px;"><strong>전형 특징:</strong> 1단계 서류 100(5배수) → 2단계 면접 50%. 수능 최저 없음.</p>
+                <p><strong>진단:</strong> 지원 적정 범위가 내신 2.6~4.2등급으로, 학생의 3.22등급은 매우 안정적인 구간에 속합니다.</p>
+                <p><strong>주의사항:</strong> 경쟁률이 41.04:1로 매우 높습니다. 내신은 안정권이나 비교과 점수(58점)가 가천대 합격권(55점 이상)에 근접하므로, 면접에서 '인성'과 '전공적합성'을 강력하게 어필해야 합니다.</p>
+            </div>
+
+            <div class="info-card">
+                <span class="status-badge bg-safe">② [적정]</span>
+                <strong>단국대학교 - 무역학과 (DKU인재-면접형)</strong>
+                <p style="margin-top:8px;"><strong>전형 특징:</strong> 1단계 서류 100(3배수) → 2단계 면접 30%.</p>
+                <p><strong>진단:</strong> 지원 적정 범위가 2.8~3.8등급이며, 경쟁률은 16.7:1로 가천대보다 낮아 합격 가능성이 상당히 높습니다.</p>
+                <p><strong>전략:</strong> 희망 전공인 경영학과와 유사한 '무역학과'를 선택한 것은 전략적으로 유효합니다. 수학 약점을 커버하기 위해 영어(2등급) 강점을 살려 글로벌 역량을 강조하십시오.</p>
+            </div>
+
+            <div class="info-card">
+                <span class="status-badge bg-neutral">③ [적정]</span>
+                <strong>서울과학기술대학교 - 영어영문학과 (학교생활우수자)</strong>
+                <p style="margin-top:8px;"><strong>전형 특징:</strong> 1단계 서류 100(3배수) → 2단계 면접 30%.</p>
+                <p><strong>진단:</strong> 지원 적정 범위가 2.4~3.5등급으로 학생 성적(3.22)이 포함됩니다.</p>
+                <p><strong>전략:</strong> 경영학과가 아닌 영어영문학과로 우회 지원한 전략입니다. 학생의 국어(2등급), 영어(2등급) 강점과 잘 매칭됩니다. 경영학에 대한 미련보다는 어문학적 소양을 생기부에 어떻게 녹여냈는지가 관건입니다.</p>
+            </div>
+
+            <div class="info-card">
+                <span class="status-badge bg-caution">④ [상향/소신]</span>
+                <strong>숭실대학교 - 경영학부 (SSU미래인재-면접형)</strong>
+                <p style="margin-top:8px;"><strong>전형 특징:</strong> 1단계 서류 100(3배수) → 2단계 면접 50%.</p>
+                <p><strong>진단:</strong> 지원 적정 범위가 1.9~3.1등급입니다. 학생 성적(3.22)은 합격 범위 바깥에 있어 다소 위험합니다.</p>
+                <p><strong>분석:</strong> 경쟁률도 28.37:1로 높습니다. 비교과 준비도(미흡)를 고려할 때, 1단계 서류 통과가 쉽지 않을 수 있습니다. 수학 역량 부족을 만회할 만한 '활동 연계성' 입증이 필수입니다.</p>
+            </div>
+
+            <div class="info-card">
+                <span class="status-badge bg-danger">⑤ [상향/위험]</span>
+                <strong>국민대학교 - 경영대학(글로벌경영) (국민프런티어)</strong>
+                <p style="margin-top:8px;"><strong>전형 특징:</strong> 1단계 서류 100(3배수) → 2단계 면접 30%.</p>
+                <p><strong>진단:</strong> 지원 적정 범위가 1.9~2.8등급입니다. 학생의 성적(3.22)과는 격차가 큽니다.</p>
+                <p><strong>분석:</strong> 국민대는 비교과 평가 수준이 75점 이상을 요구하나, 학생은 58점으로 매우 부족합니다. '자기주도성'과 '도전정신'을 평가하는 전형이므로, 남은 기간 획기적인 생기부 보완이 없다면 1단계 통과가 어렵습니다.</p>
+            </div>
+
+            <div class="info-card">
+                <span class="status-badge bg-danger">⑥ [상향/위험]</span>
+                <strong>세종대학교 - 경영학부 (세종창의인재-면접형)</strong>
+                <p style="margin-top:8px;"><strong>전형 특징:</strong> 1단계 서류 100(3배수) → 2단계 면접 40%.</p>
+                <p><strong>진단:</strong> 지원 적정 범위가 1.8~2.6등급으로, 학생 성적(3.22)과 가장 큰 차이를 보입니다.</p>
+                <p><strong>분석:</strong> 현실적으로 합격 확률이 낮습니다. 수학 관련 교과 성적이 낮은 점이 '창의융합역량' 평가에서 감점 요인이 될 수 있습니다.</p>
+            </div>
+        </div>
+    </section>
+
+    <section style="background-color: #fcfcfc;">
+        <div class="section-title">3. 입시 전문가의 총평 및 솔루션 💡</div>
+        
+        <div class="info-card" style="border-left: 4px solid var(--primary-color);">
+            <h3>가. 현재 상황 요약</h3>
+            <p>우성현 학생은 전형적인 <strong>'문과형 인재(국어/영어 강점, 수학 약점)'</strong>입니다. 내신 3.22등급으로 인서울 중위권 대학의 학생부 종합 전형을 노리고 있으나, <strong>비교과 준비 부족(미흡)</strong>과 수학 성적 저조가 발목을 잡고 있습니다.</p>
+        </div>
+
+        <div class="info-card" style="border-left: 4px solid var(--point-green);">
+            <h3>나. 필승 합격 전략</h3>
+            <ul>
+                <li><strong>선택과 집중 (지원 대학 조정):</strong>
+                    <ul>
+                        <li><span style="color:var(--point-green)">Keep:</span> <strong>단국대(무역)</strong>와 <strong>서울과기대(영어영문)</strong>는 학생의 강점(어학 능력)과 성적대가 잘 맞으므로 적극 공략하십시오. <strong>가천대(경영)</strong>는 경쟁률이 높지만 적정권이므로 유지하되 면접 준비에 올인해야 합니다.</li>
+                        <li><span style="color:var(--point-red)">Drop/Change:</span> 세종대와 국민대는 현재 성적과 비교과로는 합격이 매우 어렵습니다. 이 카드들을 가톨릭대, 경기대, 명지대 수준의 교과 면접 전형이나 종합 전형으로 하향 조정하여 안정권을 확보하는 것을 추천합니다.</li>
+                    </ul>
+                </li>
+                <li><strong>생기부 마무리 (3학년 1학기):</strong> 경영학과 지원 시 수학 성적(5등급)은 치명적입니다. 이를 만회하기 위해 '세부능력 및 특기사항'에 수학적 난제를 인문학적 상상력이나 언어적 능력으로 풀어내려 노력한 과정을 반드시 기록해야 합니다. 진로 활동이나 자율 활동에서 마케팅, 조직 인사 등 수학적 계산보다는 사람과 심리를 다루는 경영학 분야에 대한 심도 있는 탐구 보고서를 작성하여 비교과 점수를 보완하십시오.</li>
+                <li><strong>면접 준비 (가장 중요):</strong> 지원한 모든 전형이 면접형입니다. 학생부 비교과가 약하더라도 면접 비중(30~50%)이 높으므로 뒤집기가 가능합니다. 특히 "수학 성적이 낮은데 경영학을 잘할 수 있겠나?"라는 압박 질문에 대한 답변을 철저히 준비해야 합니다. (예: "통계적 수치 해석은 노력으로 보완하되, 글로벌 경영 환경에서의 소통과 협상 능력(영어 강점)으로 기여하겠다").</li>
+            </ul>
+        </div>
+
+        <div class="intro-text" style="text-align: center; border: none; background: #fff8eb;">
+            ✨ 에뉴고의 데이터는 학생에게 <strong>"상향 지원보다는 강점(어학)을 살린 실리적인 지원"</strong>을 권하고 있습니다. 남은 기간 수학 학습 시간을 조금 더 확보하고, 면접 대비에 만전을 기하시기 바랍니다.
+        </div>
+    </section>
+
+    <footer>
+        <div>이든관리형학습센터 제공</div>
+        <div class="copyright">Copyright ⓒ 이든관리형학습센터 All rights reserved.</div>
+    </footer>
+</div>
+
+</body>
+</html>
